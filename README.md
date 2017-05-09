@@ -20,7 +20,38 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Initialize client:
+
+```ruby
+client = Lionshare::Client.new
+```
+
+### prices
+
+```ruby
+client.prices.get
+```
+
+or with `period` key
+`hour | day | week | month | year`
+
+```ruby
+client.prices.get(period: :hour)
+```
+
+Response:
+
+### markets
+
+```ruby
+client.markets.get(period: :hour)
+```
+
+Response:
+
+```ruby
+{"data"=>{"BTC"=>28317131524, "ETH"=>8372895792", "XRP"=>6477081639, "LTC"=>1562510222, "XEM"=>1104930000, "DASH"=>704585094, "ETC"=>606619545, "XMR"=>417501622}}
+```
 
 ## Contributing
 
