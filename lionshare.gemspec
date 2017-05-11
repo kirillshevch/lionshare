@@ -29,5 +29,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.5.0'
   spec.add_development_dependency 'byebug', '~> 3.5.0'
   spec.add_development_dependency 'rubocop', '~> 0.48.0'
-  spec.add_development_dependency 'vcr'
+  spec.add_development_dependency 'vcr', '~> 3.0.3'
+  spec.add_development_dependency 'webmock', '~> 3.0.1'
 end
