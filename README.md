@@ -26,7 +26,7 @@ Initialize client:
 client = Lionshare::Client.new
 ```
 
-### prices
+### Prices
 
 ```ruby
 client.prices.get
@@ -53,7 +53,7 @@ Response:
 
 Response:
 
-### markets
+### Markets
 
 ```ruby
 client.markets.get(period: :hour)
