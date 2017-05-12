@@ -1,6 +1,6 @@
 # Lionshare
 
-A Ruby interface to the Lionshare API.
+A Ruby interface to the [Lionshare](https://github.com/lionsharecapital/lionshare-api) API.
 
 ## Installation
 
