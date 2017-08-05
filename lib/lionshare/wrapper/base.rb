@@ -1,10 +1,8 @@
 module Lionshare
   module Wrapper
     class Base
-      API_URL = 'https://api.lionshare.capital/api'.freeze
-
       def initialize
-        @root_url = API_URL + prefix
+        @root_url = Settings.config.api_url + prefix
         @client = HTTP::Client.new(headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'

@@ -26,6 +26,19 @@ Initialize client:
 client = Lionshare::Client.new
 ```
 
+### Configuration
+
+By default, requests are sent to `https://api.lionshare.capital/api`
+
+You can change url to your own instance
+
+`config/initializers/lionshare.rb`
+```ruby
+Lionshare::Settings.configure do |config|
+  config.api_url = 'https://exchange.domain.com/api'
+end
+```
+
 ### Prices
 
 ```ruby
