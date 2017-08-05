@@ -67,7 +67,7 @@ Response:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kirillweb/lionshare.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kirillshevch/lionshare.
 
 ## License
 
